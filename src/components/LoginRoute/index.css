@@ -1,0 +1,151 @@
+.login-container {
+  display: flex;
+  background-color: #f8fafc;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .login-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+}
+
+.form-container {
+  background-color: #ffffff;
+  width: 499px;
+  height: 484px;
+  margin-left: 72px;
+  margin-top: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .form-container {
+    background-color: transparent;
+    width: 80%;
+    height: 300px;
+    margin-left: 72px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 250px;
+  height: 100px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 200px;
+    height: 85px;
+    margin-bottom: 10px;
+  }
+}
+
+.login-image {
+  width: 780px;
+  height: 1024px;
+}
+
+@media screen and (max-width: 767px) {
+  .login-image {
+    width: 216px;
+    height: 216px;
+    /* margin: auto; */
+    margin-bottom: 0px;
+    top: 32px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .login-image-container {
+    width: 216px;
+    height: 216px;
+    margin-bottom: 0px;
+  }
+}
+
+.input-element-box {
+  width: 360px;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .input-element-box {
+    width: 250px;
+  }
+}
+
+.login-button {
+  width: 360px;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #0284c7;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .login-button {
+    width: 250px;
+  }
+}
+
+.label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 13px;
+  color: #5a7184;
+}
+
+@media screen and (max-width: 767px) {
+  .label {
+    font-size: 14px;
+  }
+}
+
+.error-msg {
+  width: 215px;
+  height: 17px;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ef4444;
+}
+
+* {
+  font-family: 'Roboto';
+}

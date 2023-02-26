@@ -1,0 +1,19 @@
+.footer-container {
+  width: 200px;
+  height: 100px;
+  margin-left: 725px;
+  margin-top: 166px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-us {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #3d3c3c;
+}
