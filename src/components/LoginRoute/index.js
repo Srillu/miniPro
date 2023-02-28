@@ -68,7 +68,7 @@ class LoginRoute extends Component {
         <form onSubmit={this.onSubmitForm} className="form-container">
           <img
             className="logo"
-            alt="website logo"
+            alt="login website logo"
             src="https://res.cloudinary.com/dxekjdhel/image/upload/v1677398141/Screenshot_2023-02-26_122633_ej00kn.png"
           />
 

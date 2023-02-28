@@ -1,0 +1,145 @@
+.book-details-container {
+  width: 1140px;
+  height: 726px;
+  margin-left: 150px;
+  margin-top: 153px;
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+    0px 1px 2px rgba(96, 97, 112, 0.16);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-detail-content-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.book-details-image {
+  width: 235px;
+  height: 274px;
+  margin-right: 48px;
+  border-radius: 14.1309px;
+}
+
+.book-details-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #334155;
+  margin-bottom: 0px;
+}
+
+.image-container {
+  display: flex;
+}
+
+.book-details {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.book-details-content {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #475569;
+}
+
+.book-details-span {
+  color: #0284c7;
+  margin-left: 8px;
+}
+
+.book-details-about-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #334155;
+}
+
+.book-details-about-details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #475569;
+}
+
+@media screen and (max-width: 767px) {
+  .book-details-container {
+    width: 360px;
+    margin-left: 0px;
+    margin-top: 80px;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 60px;
+    margin-left: 24px;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-left: 62px;
+  }
+
+  .book-details-image {
+    width: 235px;
+    height: 274px;
+    /* margin-right: 63px;
+    margin-left: 62px; */
+    border-radius: 12px;
+  }
+
+  .book-details-about-heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .book-details-about-details {
+    font-size: 14px;
+    line-height: 20px;
+    width: 330px;
+  }
+
+  .book-detail-content-container {
+    margin-left: 80px;
+  }
+
+  .book-details-heading {
+    font-size: 24px;
+    line-height: 32px;
+    color: #334155;
+    text-align: center;
+  }
+
+  .book-details-content {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .book-details {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+}

@@ -1,7 +1,7 @@
 .footer-container {
   width: 200px;
   height: 100px;
-  margin-left: 725px;
+  margin-left: 647px;
   margin-top: 166px;
 }
 
@@ -16,4 +16,13 @@
   line-height: 24px;
   text-align: center;
   color: #3d3c3c;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    width: 150px;
+    height: 80px;
+    margin-left: 125px;
+    margin-top: 64px;
+  }
 }
